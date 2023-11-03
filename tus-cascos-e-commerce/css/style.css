@@ -127,7 +127,7 @@ body {
     flex-direction: column;
 }
 .producto__descripcion a {
-    font-family: 'montserratregular';
+    font-family: 'poppins';
     font-size: 2.5vw;
     padding: 1%;
     margin-top: 13%;
@@ -289,6 +289,9 @@ body {
     color: #A60304;
 }
 /* boton principal*/
+.degradado{
+    background: linear-gradient(-225deg, #feacd4 0%, #ffb1c1 29%, #ffa89e 67%, #c266ee 100%);
+}
 
 .shadow__btn {
     padding: 10px 20px;
@@ -413,6 +416,9 @@ body {
     background-color: #fff;
 }
 
+/* FORMULARIO */
+
+
 @media screen and (min-width:769px){
 
     /* Download */
@@ -478,7 +484,7 @@ body {
         line-height: 46px;
     }
     .title--3{ 
-        font-size: 8vw;
+        font-size: 2vw;
         line-height: 20px;
     }
     /* Hero Banner*/

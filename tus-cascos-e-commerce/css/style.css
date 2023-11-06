@@ -633,8 +633,9 @@ textarea {
 
 }
 
+/* Modal añadido por Fiorella para integrar en el DOM*/
 
-/* .modalDialog {
+.modalDialog {
 	position: fixed;
 	font-family: Arial, Helvetica, sans-serif;
 	top: 0;
@@ -660,4 +661,4 @@ textarea {
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
 	background: -webkit-linear-gradient(#FFAAD3, #FEAB7F);
-} */
+}

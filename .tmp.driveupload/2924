@@ -1,0 +1,21 @@
+0000000000000000000000000000000000000000 9557cf5091249b878f171edb95838c497bf528cf Mayonesio <jara.mayonesio@gmail.com> 1699011817 +0100	clone: from https://github.com/TheSalvaOne/Proyecto-II-Maquetaci-n-de-E-commerce-F5.git
+9557cf5091249b878f171edb95838c497bf528cf d0e4fcc7159fd1e3c251af73d4e7ef93ad4d2974 Mayonesio <jara.mayonesio@gmail.com> 1699264430 +0100	pull --ff --recurse-submodules --progress origin: Fast-forward
+d0e4fcc7159fd1e3c251af73d4e7ef93ad4d2974 45f27e3cf1fb4a578f77e4a13e586deaab561e3e Mayonesio <jara.mayonesio@gmail.com> 1699268215 +0100	pull --ff --recurse-submodules --progress origin: Fast-forward
+45f27e3cf1fb4a578f77e4a13e586deaab561e3e 7e4a00972700408fc933ff2394ccbfb251c6b1af Mayonesio <jara.mayonesio@gmail.com> 1699268936 +0100	pull --ff --recurse-submodules --progress origin: Fast-forward
+7e4a00972700408fc933ff2394ccbfb251c6b1af 9b5620704f9256a4445053da0ecea51df9fbdc99 Mayonesio <jara.mayonesio@gmail.com> 1699270193 +0100	commit: Vine de modal
+9b5620704f9256a4445053da0ecea51df9fbdc99 8b6e9889b7494032ea483105cb3c65c36b4a24b5 Mayonesio <jara.mayonesio@gmail.com> 1699271030 +0100	revert: Revert "cambio de formulario"
+8b6e9889b7494032ea483105cb3c65c36b4a24b5 8b6e9889b7494032ea483105cb3c65c36b4a24b5 Mayonesio <jara.mayonesio@gmail.com> 1699277471 +0100	reset: moving to HEAD
+8b6e9889b7494032ea483105cb3c65c36b4a24b5 2d0d70352bb0800fcb7044c67532ebfa14eeafaf Mayonesio <jara.mayonesio@gmail.com> 1699277472 +0100	checkout: moving from main to PROYECTO-ANTES-DEL-CAOS
+2d0d70352bb0800fcb7044c67532ebfa14eeafaf 9557cf5091249b878f171edb95838c497bf528cf Mayonesio <jara.mayonesio@gmail.com> 1699294503 +0100	checkout: moving from PROYECTO-ANTES-DEL-CAOS to Proyecto-antes-del-caos-v2
+9557cf5091249b878f171edb95838c497bf528cf 400d2ce17abc59bc0c1da8266423233fb1823b62 Mayonesio <jara.mayonesio@gmail.com> 1699345027 +0100	pull --ff --recurse-submodules --progress origin: Fast-forward
+400d2ce17abc59bc0c1da8266423233fb1823b62 725e387b4c7ddd23a7b8dd55dd8ac52e4671d143 Mayonesio <jara.mayonesio@gmail.com> 1699345170 +0100	commit: Metemos el css de Fio en su respectiva carpeta
+725e387b4c7ddd23a7b8dd55dd8ac52e4671d143 4a4bfdc849c440d1690c5d782970cb29f568c871 Mayonesio <jara.mayonesio@gmail.com> 1699347092 +0100	checkout: moving from Proyecto-antes-del-caos-v2 to PROYECTO-ANTES-DEL-CAOS
+4a4bfdc849c440d1690c5d782970cb29f568c871 725e387b4c7ddd23a7b8dd55dd8ac52e4671d143 Mayonesio <jara.mayonesio@gmail.com> 1699347158 +0100	checkout: moving from PROYECTO-ANTES-DEL-CAOS to Proyecto-antes-del-caos-v2
+725e387b4c7ddd23a7b8dd55dd8ac52e4671d143 4bccfeed2ce7fd88fc46aed538d465211de62190 Mayonesio <jara.mayonesio@gmail.com> 1699347231 +0100	pull --ff --recurse-submodules --progress origin: Fast-forward
+4bccfeed2ce7fd88fc46aed538d465211de62190 86b91de9a62683c025fd69119ba68c1e0413bb8b Mayonesio <jara.mayonesio@gmail.com> 1699347671 +0100	pull --ff --recurse-submodules --progress origin: Fast-forward
+86b91de9a62683c025fd69119ba68c1e0413bb8b a17c94450b1d6722f89a93f96fd81472b6360028 Mayonesio <jara.mayonesio@gmail.com> 1699348497 +0100	commit: Cambio ancho de ventana en productos
+a17c94450b1d6722f89a93f96fd81472b6360028 797b92af19c4757e979b7f7865c9606038517ef3 Mayonesio <jara.mayonesio@gmail.com> 1699353837 +0100	commit: Insercion del modal y del formulario de contacto
+797b92af19c4757e979b7f7865c9606038517ef3 21b66f0c0e064aec10597c6d7e631a5afd360a28 Mayonesio <jara.mayonesio@gmail.com> 1699355286 +0100	commit: Formde contacto, CSS
+21b66f0c0e064aec10597c6d7e631a5afd360a28 cd8e63f4e2aa9c16e9c930497d4d21af0acefd04 Mayonesio <jara.mayonesio@gmail.com> 1699363527 +0100	commit: cambios de estilo para formulario
+cd8e63f4e2aa9c16e9c930497d4d21af0acefd04 d4ed6725b25f6260eaf7d578c90d5dcaf154ae4b Mayonesio <jara.mayonesio@gmail.com> 1699384212 +0100	commit: mejora en maquetación del formulario
+d4ed6725b25f6260eaf7d578c90d5dcaf154ae4b e73600358ac023a5d0043e4c4385df87072d5e35 Mayonesio <jara.mayonesio@gmail.com> 1699388071 +0100	commit: Login form añadido

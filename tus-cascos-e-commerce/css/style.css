@@ -120,7 +120,7 @@ body {
     align-items: center;
 }
 .producto__foto img {
-    max-width: 38vh;
+    max-width: 100%;
     height: auto;
 }
 .producto__descripcion{
@@ -272,6 +272,7 @@ h2 {
 .header .menu__btn:checked ~ .menu {
     transform: translateX(0);
     transition: all .6s ease-out;  
+
 }
 .header .menu__btn:checked ~ .menu__icon .navicon {
     background: transparent;
@@ -304,6 +305,7 @@ input, textarea {
     font-size: 18px;
     color: #ffffff;
     padding:0 3% 0 3%;
+    text-decoration: none;
 }
 .menu__item:hover{
     color: #A60304;
@@ -439,8 +441,294 @@ input, textarea {
     background-color: #fff;
 }
 
-/* FORMULARIO */
+/* mODAL FIORELLA*/
 
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog .ventana {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(#FFAAD3, #FEAB7F);
+}
+
+
+/*  Formulario de contacto de Yolanda*/
+
+form {
+    width: 450px;
+    margin: auto;
+    /* background: rgba(0, 0, 0, 0.2); */
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 200px;
+    border-radius: 8px;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.modalDialog__contacto{
+    width:100%;
+}
+.modalDialog__contacto form {
+    width: 370px;
+}
+
+.modalDialog__contendor__botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.modalDialog__contendor__botones a {
+   outline: none;
+    
+}
+.modalDialog__contacto--form{
+    height: 750px;
+    display:flex;
+}
+.modal__formulario--margen{
+    height: 76vh; 
+}
+.form-field {
+    margin-bottom: 10px; /* Agrega 10px de espacio entre los campos */
+    max-width:86%;
+    background: rgba(0, 0, 0, 0.2) !important;
+  }
+.shadow__btn--form {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #feacd4;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    margin: 4%;
+    text-decoration: none;
+}
+  
+  .shadow__btn--form {
+    background: #fff;
+    box-shadow: 0 0 25px #fff;
+  }
+  
+  .shadow__btn--form:hover {
+    box-shadow: 0 0 5px rgb(255,166,122),
+                0 0 25px rgb(255,166,122),
+                0 0 50px rgb(255,166,122),
+                0 0 100px rgb(255,166,122);
+  }
+
+
+/* @media (max-width:480px  max-height: 100px) {
+    form{
+        width: 100%;
+        
+    }
+
+} */
+
+/* FORMULARIO RAMESH ESTILOS */
+.modalDialog .modalDialog__formulario{
+    max-width: 890px;
+	width: 100%;
+	margin: auto;
+	padding: 40px;
+}
+
+
+.formulario {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.formulario__label {
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.formulario__grupo-input {
+	position: relative;
+}
+
+.formulario__input {
+	width: 100%;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+.formulario__input:focus {
+	border: 3px solid #0075FF;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
+}
+
+.formulario__validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.formulario__checkbox {
+	margin-right: 10px;
+}
+
+.formulario__grupo-terminos, 
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
+	grid-column: span 2;
+}
+
+.formulario__mensaje {
+	height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+
+.formulario__mensaje-activo {
+	display: block;
+}
+
+.formulario__mensaje p {
+	margin: 0;
+}
+
+.formulario__grupo-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formulario__btn {
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.formulario__btn:hover {
+	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+
+.formulario__mensaje-exito {
+	font-size: 14px;
+	color: #119200;
+	display: none;
+}
+
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+/* estilos del carrito */
+
+.menu__icono--color{
+    color:#fff;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------
+                                             MEDIA QUERIES
+-------------------------------------------------------------------------------------------------------*/
+/* ----- -----  Mediaqueries del login----- ----- */
+@media screen and (max-width: 800px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+
+	.formulario__grupo-terminos, 
+	.formulario__mensaje,
+	.formulario__grupo-btn-enviar {
+		grid-column: 1;
+	}
+
+	.formulario__btn {
+		width: 100%;
+	}
+}
 
 @media screen and (min-width:769px){
 
@@ -465,7 +753,10 @@ input, textarea {
      .header{
         position:relative;
         width: 90%;
-        margin: 0 auto;  
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;  
     }
     .header .menu__icon {
         display: none;

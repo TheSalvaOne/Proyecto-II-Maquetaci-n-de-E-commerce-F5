@@ -475,8 +475,21 @@ textarea {
     max-width: 100%;
 }
 .modalDialog__contacto{
-    width:256px;
+    width:100%;
 }
+.modalDialog__contacto form {
+    width: 370px;
+}
+
+.modalDialog__contendor__botones {
+    display: flex;
+}
+
+.modalDialog__contendor__botones a {
+   outline: none;
+    
+}
+
 
 @media (max-width:480px) (max-height: 100px) {
     form{

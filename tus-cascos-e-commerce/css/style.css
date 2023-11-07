@@ -489,15 +489,24 @@ textarea {
    outline: none;
     
 }
+.modalDialog__contacto--form{
+    height: 750px;
+}
+.modal__formulario--margen{
+    height: 76vh;
+}
+.form-field {
+    margin-bottom: 10px; /* Agrega 10px de espacio entre los campos */
+  }
 
 
-@media (max-width:480px) (max-height: 100px) {
+/* @media (max-width:480px  max-height: 100px) {
     form{
         width: 100%;
         
     }
 
-}
+} */
 /* ---------------------------------------------------------------------------------------------------
                                             FORMULARIO y MEDIA QUERIES
 -------------------------------------------------------------------------------------------------------*/

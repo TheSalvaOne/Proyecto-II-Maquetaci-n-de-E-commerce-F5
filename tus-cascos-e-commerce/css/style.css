@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Manrope:wght@200&family=Tilt+Neon&display=swap');
 /* Tipografías */
 
 @font-face {
@@ -15,6 +15,9 @@
          url('../fonts/montserrat-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+.degradado{
+    background: linear-gradient(-225deg, #feacd4 0%, #ffb1c1 29%, #ffa89e 67%, #c266ee 100%);
 }
 
 /* Estilos básicos */
@@ -125,9 +128,11 @@ body {
 .producto__descripcion{
     display: flex;
     flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+    line-height: normal;
 }
 .producto__descripcion a {
-    font-family: 'poppins';
+    
     font-size: 2.5vw;
     padding: 1%;
     margin-top: 13%;
@@ -137,10 +142,10 @@ body {
     text-align: center;
 }
 .producto__descripcion p {
-    font-family: 'montserratregular';
     font-size: 1em;
     padding: 7%;
     margin: 4% 0;
+    font-weight: 700;
 }
 
 .features__list-container{
@@ -163,7 +168,7 @@ body {
     text-align: left;
 }
 .features__title{ 
-    font-family: 'montserratbold';
+    font-family: 'Manrope', sans-serif;
     text-align: left;
     margin-bottom: 5px;
 }
@@ -178,6 +183,34 @@ body {
     text-align: center;
     margin-bottom: 50px;
 }
+.producto__shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .producto__shadow__btn {
+    background: linear-gradient(-225deg, #feacd4 0%, #ffb1c1 29%, #ffa89e 67%, #c266ee 100%);
+    box-shadow: 0 0 25px #fff;
+  }
+  
+  .producto__shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(255,166,122),
+                0 0 25px rgb(255,166,122),
+                0 0 50px rgb(255,166,122),
+                0 0 100px rgb(255,166,122);
+  }
+  .producto__inferior--align{
+    display:flex;
+    
+  }
 
 /* header */
 
@@ -291,9 +324,7 @@ body {
     color: #A60304;
 }
 /* boton principal*/
-.degradado{
-    background: linear-gradient(-225deg, #feacd4 0%, #ffb1c1 29%, #ffa89e 67%, #c266ee 100%);
-}
+
 
 .shadow__btn {
     padding: 10px 20px;
@@ -787,7 +818,7 @@ textarea {
     }
     .herobanner__title{        
         max-width: 620px;   
-        padding-top: 10%;   
+        /* padding-top: 10%;    */
     }
     .paragraph{
         font-size: 14px;
